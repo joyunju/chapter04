@@ -32,7 +32,7 @@ public class PointApp {
 		Point p04 = new Point(3, 6);  // p02 와 중복
 		pSet.add(p04);
 		System.out.println(pSet.toString());
-		// (HashSet을 사용하여 중복제거, equals()재정의) 후 프린트 값 보면 중복값 안나옴 
+		// (HashSet을 사용하여 중복제거, equals()재정의, hashCode()재정의) 후 프린트 값 보면 중복값 안나옴 
 		
 		// hashCode()
 		for(Point p : pSet) {
